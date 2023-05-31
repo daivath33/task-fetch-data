@@ -20,6 +20,7 @@ Product.protoTypes = {
   title: PropTypes.string,
   image: PropTypes.string,
   price: PropTypes.number,
+  onClick: PropTypes.func,
 };
 
 export default Product;

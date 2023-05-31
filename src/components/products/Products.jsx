@@ -4,6 +4,7 @@ import Product from "./../product/Product";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+
   const productsExists = products.length > 0;
 
   useEffect(() => {
