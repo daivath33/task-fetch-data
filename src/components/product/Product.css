@@ -1,0 +1,26 @@
+.prod-card {
+  width: 200px;
+  height: auto;
+  border: 1px solid gray;
+  margin: 20px;
+}
+.prod-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px;
+}
+.prod-info h5 {
+  color: gray;
+}
+.prod-info h3 {
+  color: darkred;
+}
+.btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 1px;
+}
